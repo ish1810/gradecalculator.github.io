@@ -1,0 +1,84 @@
+<html>
+<head>
+<link rel="stylesheet" href="gradecalculater.css">
+<meta name="viewport" content="width=device-width,  initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Grenze+Gotisch&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+<ul class="line">
+<li>GRADE</li>
+<li>CALCULATER</li>
+</ul>
+</div>
+<div class="calcy">
+
+
+<input type="text"  class="input1" placeholder="DATA STRUCTURE"  id="marks1" >
+
+<input type="text"  class="input2" placeholder="MATHEMATICS" id="marks2"  >
+
+<input type="text"  class="input3" placeholder="DISCRETE" id="marks3" >
+
+<input type="text"  class="input4" placeholder="WEB DEVELOPING" id="marks4"  >
+
+</div>
+
+
+<div class="st">
+</div>
+ 
+
+<input type="submit" value=" CALCULATE TOTAL" class="total"  onclick=" total()">
+<div class="last"><p id="last">  </p></div>
+<script>
+var i;
+var j;
+var k;
+var l;
+var m;
+
+function total(){
+ i=document.getElementById("marks1").value;
+
+ j=document.getElementById("marks2").value;
+
+ k=document.getElementById("marks3").value;
+
+ l=document.getElementById("marks4").value;
+
+ 
+var t= parseFloat(i)+ parseFloat(j)+ parseFloat(k)+ parseFloat(l);
+
+ alert(t);
+ 
+var prec= (t/400)*100;
+ 
+ alert(prec);
+
+
+if (prec>=80 && prec<=100) {
+m="A";
+}else if(prec>=60  && prec<=79){
+m="B";
+}else if(prec>=40 && prec<=59 ){
+m="C";
+}else{
+m="FAIL"
+}
+
+document.getElementById('last').innerHTML=` THE TOTAL OF YOUR MARKS OUT OF 400 IS ${t} AND THE PERCENTAGE 
+OF THESE TOTAL IS ${prec}% . <br> ACCORDING TO THESE MARKS YOUR GRADE IS ${m} .`
+
+
+}
+</script>
+
+</body>
+</html>

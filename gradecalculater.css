@@ -1,0 +1,161 @@
+body{
+background-color: #fdcf76;}
+
+.main{
+background-color: #aa7b6f;
+height: 640px;
+width: 800px;
+margin: auto;
+margin-top: 20px;
+border-radius: 20px;
+
+
+}
+.line{
+color: white;
+font-family: 'Balsamiq Sans', cursive;
+position: absolute;
+left: 25%;
+top: 10%;
+font-size: 30px;
+list-style: none;
+}
+.st{
+border-left: 6px solid black;
+height: 100px; 
+margin-top: -415px;
+margin-left: 400px;
+}
+
+.calcy{
+background-color: black;
+height: 470px;
+width: 370px;
+border-radius: 20px;
+opacity: 0.8;
+margin-top: -600px;
+margin-left: 750px;
+}
+
+.input1{
+width: 300px;
+height: 50px;
+background-color: black;
+color: white;
+border: none;
+color: #77dd77;
+font-family: 'Itim', cursive;
+font-size: 36px;
+margin-top: 35px;
+margin-left: 40px;
+}
+
+.input2{
+width: 300px;
+height: 50px;
+background-color: black;
+color: white;
+border: none;
+color: #77dd77;
+font-family: 'Itim', cursive;
+font-size: 36px;
+margin-top: 50px;
+margin-left: 40px;
+}
+
+.input3{
+width: 300px;
+height: 50px;
+background-color: black;
+color: #77dd77;
+border: none;
+font-family: 'Itim', cursive;
+font-size: 36px;
+margin-top: 50px;
+margin-left: 40px;
+}
+
+.input4{
+width: 300px;
+height: 50px;
+background-color: black;
+color: white;
+border: none;
+margin-top: 50px;
+color: #77dd77;
+font-family: 'Itim', cursive;
+font-size: 36px;
+margin-left: 40px;
+
+}
+
+.total{
+box-sizing: border-box;
+background-color: #D7E7A9;
+color: black;
+width: 300px;
+height: 50px;
+margin-left: 560px;
+margin-top: 340px;
+font-family: 'Vollkorn', serif;
+font-size: 30px;
+}
+
+.last{
+font-family: 'Merriweather', serif;
+color: black;
+font-size: 25px;
+margin-left: 150px;
+margin-top: 70px;
+}
+@media only screen and (max-width: 1180px){
+ .line{margin-top: -180px;
+       left: 13%;
+       top: 32%;}
+ .st{margin-left: 150px;
+    height: 100px; 
+    margin-top: -555px;}
+ .calcy{margin-left: 470px;
+ height: 670px;
+ margin-top: -800px;}
+ .main{height: 840px;
+ margin-top: 80px;}
+ .input1{margin-top: 80px;}
+ .input2{margin-top: 90px;}
+ .input3{margin-top: 90px;}
+ .input4{margin-top: 90px;} 
+ .total{margin-top: 480px;
+ margin-left: 500px;}
+ .last{margin-top: 170px;}}
+@media only screen and (max-width: 768px){
+.main{height: 800px;
+      width: 700px;
+      margin-left: 40px;}
+.calcy{margin-left: 350px;
+margin-top: -750px;}
+.st{margin-left: 100px;
+margin-top:-650px;}
+.line{top: 45%;}
+.total{margin-top: 560px;
+margin-left: 390px;}
+.last{margin-top:40px;}}
+@media only screen and (max-width:480px){
+ .main{height: 870px;
+ width: 650px;
+ margin-left:22px;}   
+ .calcy{margin-left:280px;
+ margin-top:-820px;}
+ .st{margin-left:50px;
+ margin-top:-630px;
+ }
+.line{top:45%;
+left:6%}
+.total{
+    margin-left:320px;
+}
+.last{
+    margin-top:70px;
+    font-size: 20px;
+}
+} [99999999
+
